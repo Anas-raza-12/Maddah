@@ -1,0 +1,36 @@
+:root{
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100VW;
+}
+.top-line{
+    background: #000;
+    color: white;
+}
+.top-line>.row>.d-flex{
+    align-items: center;
+    gap: 1vh 1vw;
+    padding: 1vh 2vw;
+    font-weight: 700;
+    font-size: 17px;
+}
+.top-line>.row>.d-flex a{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* -----------------------------navber ----------------------------- */
+nav>.container .logo{
+    font-size: 30px;
+    color: #000;
+}
