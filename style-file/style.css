@@ -17,12 +17,12 @@ a {
 }
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translate(-100px, 100px);
+    opacity: 0;
+    transform: translate(-100px, 100px);
   }
   to {
-      opacity: 1;
-      transform: translate(0, 0);
+    opacity: 1;
+    transform: translate(0, 0);
   }
 }
 
@@ -300,4 +300,91 @@ nav a {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+.Home > .fivth-container {
+  margin: 5vh auto;
+  text-align: center;
+  padding: 5vh;
+}
+.Home > .fivth-container>h4 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #febb2a;
+}
+.Home > .fivth-container h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+
+  margin: 2vh auto;
+}
+.Home > .fivth-container p {
+  color: #737373;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+
+  margin: 2vh auto;
+}
+.Home > .fivth-container .row{
+  margin: 5vh auto;
+}
+.Home > .fivth-container .col-lg-3{
+  margin: 1vh auto;
+  text-align: center;
+}
+.Home > .fivth-container .col-lg-3 img{
+  width:25%;
+}
+.Home > .fivth-container .col-lg-3 h4{
+  
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+margin: 5vh auto 2vh auto;
+}
+.Home > .fivth-container .col-lg-3 p{
+color: #737373;
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+}
+.Home > .sixth-container{
+  text-align: center;
+  margin: 5vh auto;
+}
+.Home > .sixth-container>h2{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #febb2a;
+}
+.Home > .sixth-container>   h1{
+  color: #252B42;
+
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  
+}
+.Home > .sixth-container>.row .first-img{
+  background-image: url("../image/unsplash_75EFpyXu3Wg.png");
+}
+.Home > .sixth-container>.row .second-img{
+  background-image: url("../image/unsplash_ruJm3dBXCqw.png");
+
 }
