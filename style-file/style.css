@@ -50,6 +50,10 @@ a {
   color: #feba2a !important;
   font-weight: 700;
 }
+.Shop .shop{
+  color: #feba2a !important;
+  font-weight: 700;
+}
 .Blog .Blog {
   color: #feba2a !important;
   font-weight: 700;
@@ -74,10 +78,10 @@ nav img {
 }
 /* -----------------------------Home ----------------------------- */
 .Home > .first-container {
-  background-image: linear-gradient(to right, #feba2a 92%, #fff 8%);
+  background-image: linear-gradient(to right, #feba2a 86%, #fff 12%);
   border-radius: 30px;
 
-  width: 95%;
+  width: 85%;
   margin: 2vh auto;
 }
 .Home > .first-container .d-flex {
@@ -90,7 +94,7 @@ nav img {
   color: #fff;
 
   font-family: Montserrat;
-  margin: 1vh 0vw;
+  margin: 3vh 0vw;
 }
 .Home > .first-container .d-flex h1 {
   color: #8b4513;
@@ -494,6 +498,95 @@ nav img {
   padding: 1vh 1vw;
   font-weight: 700;
 }
+
+
+
+/* ----------------------------- Shop ----------------------------- */
+.Shop>.first-container .d-flex{
+  align-items: center;
+  justify-content: space-between;
+}
+.Shop>.first-container .d-flex h1{
+margin: 0;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+ color: #252B42;
+
+  
+}
+.Shop>.first-container .d-flex .d-flex{
+  justify-content: space-around;
+  gap: 1vw;
+}
+
+.Shop>.first-container .d-flex .d-flex a{
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+
+color: #252B42;
+}
+
+.Shop>.first-container >.row>.col-lg-2 {
+  margin: 3vh auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Shop>.first-container >.row>.col-lg-2 img{
+  width: 100%;
+}
+.Shop>.first-container >.row>.col-lg-2 .position-absolute{
+  top: 0%;
+  left: 0%;
+ background: #8B451380 ;
+ padding:100px 86px;
+ overflow: hidden;
+text-align: center;
+}
+.Shop>.first-container >.row>.col-lg-2 .position-absolute h6{
+  margin: 0;
+  color: #fff;
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+.Shop>.first-container >.row>.col-lg-2 .position-absolute p{
+  margin: 0;
+  color: #fff;
+ 
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -----------------------------About Page ----------------------------- */
 .About > .first-container {
   margin: 4vh auto;
