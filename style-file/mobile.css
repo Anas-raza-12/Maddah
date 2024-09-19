@@ -267,6 +267,141 @@
       font-weight: 700;
   }
 
+/* ----------------------------- Shop ----------------------------- */
+.Shop > .first-container .d-flex {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Shop > .first-container .d-flex h1 {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    color: #252b42;
+  }
+  .Shop > .first-container .d-flex .d-flex {
+    justify-content: space-around;
+    gap: 1vw;
+  }
+  
+  .Shop > .first-container .d-flex .d-flex a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+  
+    color: #252b42;
+  }
+
+  
+.Shop > .first-container > .row > .col-lg-2 {
+    margin: 3vh auto;
+    padding: 0;
+    overflow: hidden;
+    width: 45%;
+  }
+  
+  .Shop > .first-container > .row > .col-lg-2 img {
+    width: 100%;
+  }
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute {
+    top: 0%;
+    left: 0%;
+    background: #8b451380;
+    padding: 80px 56px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute h6 {
+    margin: 0;
+    color: #fff;
+  
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute p {
+    margin: 0;
+    color: #fff;
+  
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .Shop > .second-container {
+    margin: 8vh auto;
+  }
+  .Shop > .second-container > h5 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    color: #feba2b;
+    margin: 0;
+  }
+  .Shop > .second-container > h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2vh auto;
+    color: #252b42;
+  }
+  .Shop > .second-container > p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    margin: 0;
+  }
+  .Shop > .second-container > .row > .col-lg-2 {
+    margin: 2vh auto;
+    width: 45%;
+  }
+  .Shop > .second-container > .row > .col-lg-2 img {
+    width: 100%;
+  }
+  .Shop > .second-container > .row > .col-lg-2 h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 1vh auto;
+    color: #febb2a;
+  }
+  .Shop > .second-container > .row > .col-lg-2 a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+  }
+  .Shop > .second-container > .row > .col-lg-2 h6 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+  margin: 1vh ;
+    text-align: center;
+    color: #bdbdbd;
+    margin-bottom: 4vh;
+  }
+  .Shop > .second-container > .row > .col-lg-2 h6 span {
+    color: #feba2b;
+  }
+  .Shop > .second-container  button{
+   
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #8B4513;
+  border: 1px solid #8B4513;
+  padding: 1.5vh 1.5vw;
+  border-radius: 5px;
+  }
+  .Shop>.container-fluid>img{
+    width: 100%;
+  }
+  
   /* -----------------------------About Page ----------------------------- */
   .About > .first-container {
       margin: 1vh auto;

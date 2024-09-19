@@ -50,7 +50,7 @@ a {
   color: #feba2a !important;
   font-weight: 700;
 }
-.Shop .shop{
+.Shop .shop {
   color: #feba2a !important;
   font-weight: 700;
 }
@@ -499,93 +499,136 @@ nav img {
   font-weight: 700;
 }
 
-
-
 /* ----------------------------- Shop ----------------------------- */
-.Shop>.first-container .d-flex{
+.Shop > .first-container .d-flex {
   align-items: center;
   justify-content: space-between;
 }
-.Shop>.first-container .d-flex h1{
-margin: 0;
+.Shop > .first-container .d-flex h1 {
+  margin: 0;
   font-family: Montserrat;
   font-size: 28px;
   font-weight: 700;
- color: #252B42;
-
-  
+  color: #252b42;
 }
-.Shop>.first-container .d-flex .d-flex{
+.Shop > .first-container .d-flex .d-flex {
   justify-content: space-around;
   gap: 1vw;
 }
 
-.Shop>.first-container .d-flex .d-flex a{
+.Shop > .first-container .d-flex .d-flex a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
 
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-
-color: #252B42;
+  color: #252b42;
 }
 
-.Shop>.first-container >.row>.col-lg-2 {
+.Shop > .first-container > .row > .col-lg-2 {
   margin: 3vh auto;
   padding: 0;
   overflow: hidden;
 }
 
-.Shop>.first-container >.row>.col-lg-2 img{
+.Shop > .first-container > .row > .col-lg-2 img {
   width: 100%;
 }
-.Shop>.first-container >.row>.col-lg-2 .position-absolute{
+.Shop > .first-container > .row > .col-lg-2 .position-absolute {
   top: 0%;
   left: 0%;
- background: #8B451380 ;
- padding:100px 86px;
- overflow: hidden;
-text-align: center;
+  background: #8b451380;
+  padding: 100px 86px;
+  overflow: hidden;
+  text-align: center;
 }
-.Shop>.first-container >.row>.col-lg-2 .position-absolute h6{
+.Shop > .first-container > .row > .col-lg-2 .position-absolute h6 {
   margin: 0;
   color: #fff;
 
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 700;
-
-
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
 }
 
-.Shop>.first-container >.row>.col-lg-2 .position-absolute p{
+.Shop > .first-container > .row > .col-lg-2 .position-absolute p {
   margin: 0;
   color: #fff;
- 
+
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
- 
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Shop > .second-container {
+  margin: 8vh auto;
+}
+.Shop > .second-container > h5 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  color: #feba2b;
+  margin: 0;
+}
+.Shop > .second-container > h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 2vh auto;
+  color: #252b42;
+}
+.Shop > .second-container > p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
+  margin: 0;
+}
+.Shop > .second-container > .row > .col-lg-2 {
+  margin: 2vh auto;
+}
+.Shop > .second-container > .row > .col-lg-2 img {
+  width: 100%;
+}
+.Shop > .second-container > .row > .col-lg-2 h4 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1vh auto;
+  color: #febb2a;
+}
+.Shop > .second-container > .row > .col-lg-2 a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+.Shop > .second-container > .row > .col-lg-2 h6 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1vh;
+  text-align: center;
+  color: #bdbdbd;
+  margin-bottom: 4vh;
+}
+.Shop > .second-container > .row > .col-lg-2 h6 span {
+  color: #feba2b;
+}
+.Shop > .second-container button {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #8b4513;
+  border: 1px solid #8b4513;
+  padding: 1.5vh 1.5vw;
+  border-radius: 5px;
+}
+.Shop > .container-fluid > img {
+  width: 100%;
+}
 
 /* -----------------------------About Page ----------------------------- */
 .About > .first-container {
@@ -934,7 +977,24 @@ font-weight: 700;
   margin-top: 20px !important;
   border-radius: 5px;
 }
+/* -----------------------------Product-details----------------------------- */
+.Product-details > .first-container > .d-flex {
+  align-items: center;
+  gap: 1vw;
+  margin: 3vh 0vw;
+}
+.Product-details > .first-container > .d-flex a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252b42;
+}
+
 /* -----------------------------Footer ----------------------------- */
+
 footer {
   background-image: linear-gradient(to top, #feba2b 85%, #fff 15%);
   min-height: 60vh;
@@ -942,6 +1002,7 @@ footer {
 footer > .first-container-footer {
   background: #8b4513;
   border-radius: 20px;
+  padding: 5vh 1vw;
 }
 
 footer > .first-container-footer > .row > .col-lg-6 {

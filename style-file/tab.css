@@ -72,7 +72,59 @@
   .Home > .first-container .img > img {
       width: 50%;
   }
+/* ----------------------------- Shop ----------------------------- */
 
+
+
+  
+
+  
+  .Shop > .first-container > .row > .col-lg-2 img {
+    width: 100%;
+  }
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute {
+    top: 0%;
+    left: 0%;
+    background: #8b451380;
+    padding: 50px 38px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute h6 {
+ 
+    font-size: 14px;
+   
+  }
+  
+  .Shop > .first-container > .row > .col-lg-2 .position-absolute p {
+
+    font-size: 14px;
+
+  }
+  .Shop > .second-container {
+    margin: 5vh auto;
+  }
+  .Shop > .second-container > h5 {
+
+    font-size: 17px;
+  
+  }
+  .Shop > .second-container > h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2vh auto;
+    color: #252b42;
+  }
+  .Shop > .second-container > p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    margin: 0;
+  }
+  
+  
   /* -----------------------------About Page ----------------------------- */
   .About > .first-container {
       margin: 2vh auto;
