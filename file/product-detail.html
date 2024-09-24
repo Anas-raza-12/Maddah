@@ -115,10 +115,18 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 product-slider">
                     <div class="main-img">
-                        <img src="../image/carousel-inner.png" alt="" />
+                        <img src="" id="main-image" width="100%">
                     </div>
-                    <div class="d-flex gap-2"><img width="100px" src="../image/carousel-inner.png" alt="" /> <img width="100px" src="../image/20 1.png" alt="" /> <img width="100px" src="../image/16 1.png" alt="" /></div>
+                    <div class="d-flex gap-2 thumbnails">
+                        <img src="" class="thumbnail" id="thumbnail" width="100%">
+
+                        <img class="thumbnail" id="thumbnail1" width="100px" src="" />
+                        <img class="thumbnail" id="thumbnail2" width="100px" src="" />
+                        <img class="thumbnail" id="thumbnail3" width="100px" src="" />
+                    </div>
                 </div>
+                
+                  
                 <div class="col-lg-6 col-md-6">
                     <h3>Harmonium</h3>
                     <div id="reviews" class="d-flex">
@@ -307,5 +315,41 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+  
+  const a0 = '../image/carousel-inner.png'; 
+  const a1 = '../image/carousel-inner.png'; 
+        const a2 = '../image/20 1.png'; 
+        const a3 = '../image/16 1.png'; 
+        const a4 = '../image/2 1.png'; 
+
+      
+        const image = document.getElementById("main-image");
+        const thumbnail = document.getElementById("thumbnail");
+
+        const thumbnail1 = document.getElementById("thumbnail1");
+        const thumbnail2 = document.getElementById("thumbnail2");
+        const thumbnail3 = document.getElementById("thumbnail3");
+
+        image.src = a0; 
+
+        thumbnail.src = a1; 
+        thumbnail1.src = a2; 
+        thumbnail2.src = a3; 
+        thumbnail3.src = a4; 
+        
+        thumbnail.addEventListener('click', () => {
+            image.src = a1;
+        });
+        thumbnail1.addEventListener('click', () => {
+            image.src = a2;
+        });
+        thumbnail2.addEventListener('click', () => {
+            image.src = a3;
+        });
+        thumbnail3.addEventListener('click', () => {
+            image.src = a4;
+        });
     </script>
+    
 </html>
